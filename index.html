@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amarth Technical College</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #004080;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1rem;
+    }
+
+    main {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .branches {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .branch {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .branch:hover {
+      transform: translateY(-5px);
+    }
+
+    .branch h3 {
+      margin-bottom: 0.5rem;
+      color: #004080;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #eaeaea;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Amarth Technical College</h1>
+    <p>Empowering the next generation of engineers and innovators</p>
+  </header>
+
+  <main>
+    <h2 style="text-align:center;">Our Branches</h2>
+    <div class="branches">
+      <div class="branch">
+        <h3>Computer Science Engineering</h3>
+        <p>Learn the fundamentals of computing, AI, and software systems.</p>
+      </div>
+      <div class="branch">
+        <h3>Mechanical Engineering</h3>
+        <p>Design, analyze, and innovate with the mechanics of motion and energy.</p>
+      </div>
+      <div class="branch">
+        <h3>Fire Tech & Safety</h3>
+        <p>Specialize in fire prevention, industrial safety, and emergency response.</p>
+      </div>
+      <div class="branch">
+        <h3>Electrical Engineering</h3>
+        <p>Master power systems, electronics, and electrical innovation.</p>
+      </div>
+      <div class="branch">
+        <h3>Civil Engineering</h3>
+        <p>Build the future with structural design and sustainable infrastructure.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Amarth Technical College. All rights reserved.
+  </footer>
+</body>
+</html>
